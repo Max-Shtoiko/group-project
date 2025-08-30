@@ -1,47 +1,47 @@
-.infa{
-    padding: 100px;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  max-width: 1440px;
+  margin: 4px;
 }
-img{
-    width: 364px;
-    height:242px;
+.infa {
+  padding: 100px;
+}
+img {
+  width: 364px;
+  height: 242px;
 }
 body {
-
 }
 
 header {
-
 }
 
 div {
-
 }
 
-
 a {
-
 }
 
 main {
-
 }
 
 footer {
+
   border-radius: 40px;
     background-color:black;
     width:1330;
     height:150;
+
 }
 
 a:hover {
-
 }
 
 h2 {
-
 }
 p {
-  
 }
 .github{
    border-radius: 10px; 
@@ -61,4 +61,50 @@ p {
        height:100px;
 }
 
+.game-card {
+  display: flex;
+  background: #ddd;
+  padding: 10px;
+  border-radius: 6px;
+  max-width: 800px;
+  margin: 20px;
+}
 
+.main-image img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  flex: 1;
+}
+
+.title {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.small-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.small-images img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.message {
+  font-size: 14px;
+  font-style: italic;
+}
