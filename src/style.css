@@ -1,44 +1,40 @@
-.infa{
-    padding: 100px;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  max-width: 1440px;
+  padding: 4px;
 }
-img{
-    width: 364px;
-    height:242px;
+
+.infa {
+  padding: 100px;
+}
+img {
+  width: 364px;
+  height: 242px;
 }
 body {
-
 }
 
 header {
-
 }
 
 div {
-
 }
 
-
 a {
-
 }
 
 main {
-
 }
 
 footer {
-  
 }
 
 a:hover {
-
 }
 
 h2 {
-
 }
 p {
-  
 }
-
-
