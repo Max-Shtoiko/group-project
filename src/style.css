@@ -28,6 +28,12 @@ main {
 }
 
 footer {
+
+  border-radius: 40px;
+    background-color:black;
+    width:1330;
+    height:150;
+
 }
 
 a:hover {
@@ -36,6 +42,23 @@ a:hover {
 h2 {
 }
 p {
+}
+.github{
+   border-radius: 10px; 
+   width: 100px;
+   height:100px;
+}
+
+.discord{
+    border-radius: 10px;
+    width: 100px;
+    height:100px;
+}
+
+.tiktok{
+    border-radius: 10px;
+       width: 100px;
+       height:100px;
 }
 
 .game-card {
