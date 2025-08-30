@@ -13,10 +13,6 @@ header {
 
 }
 
-div {
-
-}
-
 
 a {
 
@@ -39,6 +35,15 @@ h2 {
 }
 p {
   
+}
+
+.poshyc{
+    border-radius: 20px;
+    width: 1,336;
+    height: 110;
+    top: 246;
+    left: 52px;
+    
 }
 
 
