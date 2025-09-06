@@ -29,11 +29,6 @@ main {
 
 footer {
 
-  border-radius: 40px;
-    background-color:black;
-    width:1330;
-    height:150;
-
 }
 
 a:hover {
@@ -60,6 +55,13 @@ p {
        width: 100px;
        height:100px;
 }
+
+
+
+
+
+
+
 
 .game-card {
   display: flex;
@@ -110,23 +112,73 @@ p {
   font-style: italic;
 }
 
-@media (max-width: 768px) {
-  .game-card {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .main-image img {
-    width: 100%;
-    height: auto;
-  }
 
-  .small-images img {
-    height: auto;
-  }
+.cnopku{
+  display: flex;
+  background: #ddd;
+  padding: 10px;
+  border-radius: 6px;
+  max-width: 600px;
+  gap: 15px;
+  margin: 0 auto; 
+  margin-bottom: 10px;
+}
 
-  .right-side {
-    width: 100%;
-    text-align: center;
+
+.btn{
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #6a5af9, #00c9ff);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  text-align: center
+  ;
+}
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 201, 255, 0.6);
+}
+
+/* Анімація при кліку */
+.btn:active {
+  transform: scale(0.95) rotate(-2deg);
+  box-shadow: 0 2px 8px rgba(0, 201, 255, 0.4);
+}
+
+/* Додаємо "світловий промінь" */
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  transform: skewX(-25deg);
+}
+
+/* Анімація проблиску */
+.btn:hover::before {
+  animation: shine 0.8s forwards;
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 200%;
   }
 }
+
+
+
+
