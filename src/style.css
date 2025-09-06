@@ -16,6 +16,11 @@ body {
 }
 
 header {
+  background-color: #00c9ff;
+  height: 40px;
+  width: 1400px;
+  margin: 20px;
+  padding: 40px;
 }
 
 div {
